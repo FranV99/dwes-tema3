@@ -1,0 +1,152 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: auto;
+}
+/*Menu en general*/
+.menu_idiomas {
+  display: flex;
+  background-color: rgb(32, 32, 32);
+  padding-left: 20px;
+}
+
+/*Titulo del menu*/
+.menu_idiomas h1 {
+  color: rgb(177, 177, 177);
+  padding-left: 30px;
+}
+
+/*Posicion de los idiomas*/
+.menu_idiomas form p select {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+/*Lista del Menu*/
+.menu_idiomas nav ul {
+  display: flex;
+}
+/*Contenedor del menú*/
+.menu_idiomas nav ul li {
+  display: inline;
+  padding: 15px;
+}
+.menu_idiomas nav ul li:hover {
+  background-color: black;
+  border-radius: 30px;
+}
+
+
+/*Letras del menu de opciones*/
+li a {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  color: rgb(177, 177, 177);
+}
+/*Posicion de los idiomas*/
+.menu_idiomas form {
+  display: flex;
+  padding-top: 10px;
+  margin-left: 550px;
+}
+/*Boton de ok del menu de idiomas*/
+.menu_idiomas form input {
+  margin-top: 15px;
+  margin-left: 5px;
+  height: 33px;
+  width: 53px;
+  background-color: rgb(36, 194, 36);
+  color: white;
+  border-radius: 5px;
+}
+
+.menu_idiomas form input:hover {
+  color: rgb(36, 194, 36);
+  background-color: white;
+  scale: 0.9;
+}
+/*todo el formulario*/
+.formulario,.formulario_cloud {
+  padding-left: 50px;
+}
+
+.formulario p {
+  padding-bottom: 15px;
+}
+/*Empieza a subir ficheros*/
+.formulario a {
+  background-color: rgb(27, 125, 189);
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.formulario a:hover {
+  padding: 8px;
+}
+
+.formulario p input:not(.boton_submit){
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 5px;
+  width: 39%;
+}
+
+.boton_submit {
+  margin-left: 12.5%;
+}
+
+.error_fichero {
+  background-color: rgba(231, 148, 148, 0.481);
+  color: rgb(178, 0, 0);
+  padding: 5px;
+  padding-top: 15px;
+  padding-left: 10px;
+  width: 38.7%;
+  margin-top: -31px;
+  margin-left: 155px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.error_subir_fichero {
+  background-color: rgba(231, 148, 148, 0.481);
+  color: rgb(178, 0, 0);
+  padding: 5px;
+  padding-top: 15px;
+  padding-left: 10px;
+  width: 38.7%;
+  margin-top: -31px;
+  margin-left: 175px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+
+.formulario_cloud img{
+    display: flexbox;
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    margin-left: 5px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.ficherospdf{
+  background-color: rgb(27, 125, 189);
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  line-height: 30px;
+}
+.ficherospdf:hover{
+  background-color: rgb(21, 100, 153);
+  
+}
+
